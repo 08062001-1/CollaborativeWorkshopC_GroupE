@@ -1,0 +1,3 @@
+/cygdrive/c/Users/tania/CLionProjects/Taller_Colaborativo_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/tania/CLionProjects/Taller_Colaborativo_C/cmake-build-debug/CMakeFiles/Taller_Colaborativo_C.dir
+/cygdrive/c/Users/tania/CLionProjects/Taller_Colaborativo_C/cmake-build-debug/CMakeFiles/edit_cache.dir
