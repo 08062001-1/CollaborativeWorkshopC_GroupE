@@ -36,6 +36,7 @@ void mainMenu(){
                      "6. Secuencia Fibonacci\n"
                      "7. Puntaje de una Prueba\n"
                      "Digite la opcion (s/S) para salir\n";
+
     do{
         printf(mainMenu);
         scanf("%c", &option);
@@ -43,39 +44,39 @@ void mainMenu(){
 
         switch(option){
 
-            case 1:
-                printf("Caso 1");
+            case '1':
+                printf("Selecciono la opcion %c", option);
                 break;
 
-            case 2:
-                printf("Caso 2");
+            case '2':
+                printf("Selecciono la opcion %c", option);
                 break;
 
-            case 3:
-                printf("Caso 3");
+            case '3':
+                printf("Selecciono la opcion %c", option);
                 break;
 
-            case 4:
-                printf("Caso 4");
+            case '4':
+                printf("Selecciono la opcion %c", option);
                 break;
 
-            case 5:
-                printf("Caso 5");
+            case '5':
+                printf("Selecciono la opcion %c", option);
                 break;
 
-            case 6:
-                printf("Caso 6");
+            case '6':
+                printf("Selecciono la opcion %c", option);
                 break;
 
-            case 7:
-                printf("Caso 7");
+            case '7':
+                //printf("Selecciono la opcion %c", option);
                 break;
 
         }
     }while(toupper(option) != 'S');
 }
 
-int main() {
+int main(int argc, char** argv) {
     mainMenu();
     return 0;
 }

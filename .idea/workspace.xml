@@ -11,7 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cbd2594-e501-4a07-af65-ab18ba763407" name="Default Changelist" comment="" />
+    <list default="true" id="3cbd2594-e501-4a07-af65-ab18ba763407" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Taller_Colaborativo_C.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Taller_Colaborativo_C.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +25,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dTJb4fJDu287YfZ38pVPAwh1LS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,7 +57,8 @@
       <option name="presentableId" value="Default" />
       <updated>1592443217188</updated>
       <workItem from="1592443221812" duration="4181000" />
-      <workItem from="1592516592718" duration="3057000" />
+      <workItem from="1592516592718" duration="3656000" />
+      <workItem from="1592522231764" duration="3751000" />
     </task>
     <servers />
   </component>
@@ -57,25 +66,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="550" key="GridCell.Tab.0.bottom" timestamp="1592520505198">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom" timestamp="1592527996579">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="550" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592520505198" />
-    <state width="1323" height="550" key="GridCell.Tab.0.center" timestamp="1592520505198">
+    <state width="1323" height="203" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1592527996579" />
+    <state width="1323" height="203" key="GridCell.Tab.0.center" timestamp="1592527996579">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="550" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1592520505198" />
-    <state width="1323" height="550" key="GridCell.Tab.0.left" timestamp="1592520505198">
+    <state width="1323" height="203" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1592527996579" />
+    <state width="1323" height="203" key="GridCell.Tab.0.left" timestamp="1592527996579">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="550" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1592520505198" />
-    <state width="1323" height="550" key="GridCell.Tab.0.right" timestamp="1592520505198">
+    <state width="1323" height="203" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1592527996579" />
+    <state width="1323" height="203" key="GridCell.Tab.0.right" timestamp="1592527996579">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="550" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1592520505198" />
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1592517138866">
+    <state width="1323" height="203" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1592527996579" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1592522231821">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592517138866" />
+    <state x="379" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1592522231821" />
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592528006799">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="492" y="301" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.768@0.0.1366.768" timestamp="1592528006799" />
   </component>
 </project>
