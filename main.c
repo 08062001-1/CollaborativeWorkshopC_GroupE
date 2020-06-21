@@ -1,33 +1,48 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
 
-void calcNumerosPrimos(){
+void calcPrimeNumbers(){
+    printf("Selecciono la opcion 1\n");
+    getchar();
 }
 
-void calcNumeroEgolatra(){
+void calcEgotisticalNumber(){
+    printf("Selecciono la opcion 2\n");
+    getchar();
 }
 
-void calcNumeroMagico(){
+void calcMagicNumber(){
+    printf("Selecciono la opcion 3\n");
+    getchar();
 }
 
 void calcIMC(){
+    printf("Selecciono la opcion 4\n");
+    getchar();
 }
 
-void calcSumDigitos(){
+void calcSumOfDigits(){
+    printf("Selecciono la opcion 5\n");
+    getchar();
 }
 
-void calcSecuenciaFibonacci(){
+void calcFibonacciSequence(){
+    printf("Selecciono la opcion 6\n");
+    getchar();
 }
 
-void calcPuntajePrueba(){
+void calcTestScore(){
+    printf("Selecciono la opcion 7\n");
+    getchar();
 }
-
-
 
 void mainMenu(){
-    char option;
-    char *mainMenu = "***** MENU PRINCIPAL *****\n\n"
+    int option;
+    char temp[10];
+
+    char *mainMenu = "<<<<< MENU PRINCIPAL >>>>>\n\n"
                      "1. Numeros Primos\n"
                      "2. Numero Egolatra\n"
                      "3. Numero Magico\n"
@@ -35,48 +50,58 @@ void mainMenu(){
                      "5. Suma de Digitos\n"
                      "6. Secuencia Fibonacci\n"
                      "7. Puntaje de una Prueba\n"
-                     "Digite la opcion (s/S) para salir\n";
+                     "8. SALIR\n";
 
     do{
         printf(mainMenu);
-        scanf("%c", &option);
-        fflush(stdin);
+        fgets(temp, 5, stdin);
+        strtok(temp, "\n");
+        option = atoi(temp);
 
         switch(option){
 
-            case '1':
-                printf("Selecciono la opcion %c", option);
+            case 1:
+                calcPrimeNumbers();
                 break;
 
-            case '2':
-                printf("Selecciono la opcion %c", option);
+            case 2:
+                calcEgotisticalNumber();
                 break;
 
-            case '3':
-                printf("Selecciono la opcion %c", option);
+            case 3:
+                calcMagicNumber();
                 break;
 
-            case '4':
-                printf("Selecciono la opcion %c", option);
+            case 4:
+                calcIMC();
                 break;
 
-            case '5':
-                printf("Selecciono la opcion %c", option);
+            case 5:
+                calcSumOfDigits();
                 break;
 
-            case '6':
-                printf("Selecciono la opcion %c", option);
+            case 6:
+                calcFibonacciSequence();
                 break;
 
-            case '7':
-                //printf("Selecciono la opcion %c", option);
+            case 7:
+                calcTestScore();
+                break;
+
+            case 8:
+                break;
+
+            default:
+                printf("ERROR. Opcion no valida, intentelo nuevamente\n");
                 break;
 
         }
-    }while(toupper(option) != 'S');
+    }while(option != 8);
 }
 
 int main(int argc, char** argv) {
+
     mainMenu();
+
     return 0;
 }
